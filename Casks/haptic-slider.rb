@@ -7,7 +7,7 @@ cask "haptic-slider" do
   desc "Trackpad haptic detents for native macOS sliders"
   homepage "https://github.com/Joe-Daniel29/haptic-slider-releases"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Haptic Slider Control.app"
 
